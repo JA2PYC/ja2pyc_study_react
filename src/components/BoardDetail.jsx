@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import apiClient from '../axiosConfig';
-import '../styles/Board.css';
+import './../styles/Board.css';
 
 function BoardDetail() {
     const { id } = useParams();
